@@ -9,7 +9,7 @@ Each state is color coded and each generation is placed under its ancestor, ulti
 Press ENTER to generate a new automaton.
 
 # Some math
-We define **_neighbors_** of a cell _i_ the cells numbered _i-1_ and _i+1_. Given _n_ possible cell states, we have to generate a set of rules for each possible configuration of three cells in a row, thus obtaining _n_^3 total cases.
+We define **_neighbors_** of a cell _i_ the cells numbered _i-1_ and _i+1_ (edge cases are not considered for simplicity). Given _n_ possible cell states, we have to generate a set of rules for each possible configuration of three cells in a row, thus obtaining _n_^3 total cases.
 These cases can be numbered and stored in an array, so that the next cell state for a cell in configuration _m_ is equal to `rules[m]`.
 Each configuration can lead to one of the possible cell states: thus, the total number of cellular automata we can generate is equal to (_configuration number_)^n.
 The algorithm randomly initializes the rules array, effectively picking one of the cellular automata at random.
