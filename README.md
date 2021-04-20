@@ -19,8 +19,8 @@ The algorithm randomly initializes the rules array, effectively picking one of t
 
 Color coding is randomly generated. The automata often produce nice patterns, as the ones shown below:
 
-![](images/cell1)
+![](/images/cell1)
 
-![](images/cell2)
+![](/images/cell2)
 
-![](images/cell3)
+![](/images/cell3)
