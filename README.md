@@ -6,6 +6,8 @@ Given a set of possible cell states, an array of cells is initialized with rando
 The next state of a particular cell is determined by looking at its neighbors and evaluating the obtained configuration via a set of randomly generated rules.
 Each state is color coded and each generation is placed under its ancestor, ultimately forming an image.
 
+Press ENTER to generate a new automaton.
+
 # Some math
 We define **_neighbors_** of a cell _i_ the cells numbered _i-1_ and _i+1_. Given _n_ possible cell states, we have to generate a set of rules for each possible configuration of three cells in a row, thus obtaining _n_^3 total cases.
 These cases can be numbered and stored in an array, so that the next cell state for a cell in configuration _m_ is equal to `rules[m]`.
