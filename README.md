@@ -7,4 +7,4 @@ The next state of a particular cell is determined by looking at its neighbors an
 Each state is color coded and each generation is placed under its ancestor, ultimately forming an image.
 
 # Some math
-We define _neighbors_ of a cell **_i_** the cells numbered **_i-1_** and **_i+1_**.
+We define **_neighbors_** of a cell _i_ the cells numbered _i-1_ and _i+1_. Given _n_ possible cell states, we have to generate a set of rules for each possible configuration of three cells in a row, thus obtaining _n_^3 total configurations.
