@@ -1,5 +1,6 @@
 # cellular-automata-generator-mono
 A generator of monodimensional cellular automata with an arbitrary number of states, visualized as pixel rows in a RGB image.
+The automata generated have to 2, 3 or 4 states, as further increasing the number of states reduces the noticeability of patterns in the generations and makes the images generally less visually appealing.
 
 # How it works
 Given a set of possible cell states, an array of cells is initialized with random states, serving as generation 0.
